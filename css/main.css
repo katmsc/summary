@@ -1,0 +1,18 @@
+.top-section__title {
+	margin: 0 auto;
+	font-weight: normal;
+	font-size: 55px;
+	text-align: center;
+	color: #1A1EB2;
+}
+
+.top-section-info {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+.top-section__img {
+    height: 540px;	
+}
+    
