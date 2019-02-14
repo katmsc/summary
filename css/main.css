@@ -1,18 +1,89 @@
-.top-section__title {
-	margin: 0 auto;
-	font-weight: normal;
-	font-size: 55px;
-	text-align: center;
-	color: #1A1EB2;
+.body {
+	margin: 0;
+    padding: 0;
+    font-family: Arial, sens-serif;
 }
 
-.top-section-info {
+.hello {
 	display: flex;
-	justify-content: space-evenly;
-	list-style-type: none;
+	justify-content: center;
 }
 
-.top-section__img {
-    height: 540px;	
+.hello-text__hamburger {
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 8%;
+    float: right;
+    cursor: pointer;
 }
-    
+
+.hello__img {
+	height: 680px;
+}
+
+.hello-text {
+ 	display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 100px;
+    letter-spacing: 0.1em;
+}    
+
+.hello-text__title {
+	margin-bottom: 80px;
+    letter-spacing: 0.2em;
+}    
+
+.hello-text__item {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.addition {
+	display: flex;
+    justify-content: space-evenly;
+}    
+
+.addition-item {
+	width: 350px;
+    margin: 100px 0 200px;
+    text-align: center;
+    list-style-type: none;
+    border: 4px solid #0001c5;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.addition-item__title {
+	padding: 50px 0 50px;
+    letter-spacing: 0.1em;  
+}  
+
+.addition-item__text {
+	width: 361px;
+    padding-bottom: 37px; 
+}       
+
+.addition-item__download {	
+    background: transparent;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}    
+
+.addition-item__index {
+    position: absolute;
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size:23px;
+    color: #a8a8e4;
+    left: -55px;
+    top: 30px;
+}
+
+.addition-item:hover {
+    background: #0001c5;
+    color: #fff;
+    box-shadow: 12px 12px 65px rgba(0,1,197,0.45);
+}
